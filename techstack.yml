@@ -1,0 +1,407 @@
+repo_name: CarlosRivera4726/route-provider-system
+report_id: 3eb9c0639947f9b48cf10bc54b1ba7f1
+version: 0.1
+repo_type: Public
+timestamp: '2024-04-01T16:32:59+00:00'
+requested_by: itsrusty
+provider: github
+branch: main
+detected_tools_count: 29
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/CarlosRivera4726/route-provider-system/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: CarlosRivera4726
+  last_updated_on: 2024-01-06 00:44:40.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/CarlosRivera4726/route-provider-system
+  detection_source: Repo Metadata
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/CarlosRivera4726/route-provider-system/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: itsrusty
+  last_updated_on: 2024-01-07 03:26:05.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/CarlosRivera4726/route-provider-system/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: CarlosRivera4726
+  last_updated_on: 2024-01-06 00:43:48.000000000 Z
+- name: Mongoose
+  description: MongoDB object modeling designed to work in an asynchronous environment
+  website_url: http://mongoosejs.com/
+  version: 8.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Document Mapper (ODM)
+  image_url: https://img.stackshare.io/service/1231/0TXzZU7W_400x400.jpg
+  detection_source_url: https://github.com/CarlosRivera4726/route-provider-system/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: itsrusty
+  last_updated_on: 2023-12-24 03:50:21.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  version: 4.6.12
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/CarlosRivera4726/route-provider-system/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: itsrusty
+  last_updated_on: 2023-12-28 07:47:02.000000000 Z
+- name: Sequelize
+  description: Easy-to-use multi SQL dialect ORM for Node.js
+  website_url: https://sequelize.org/
+  version: 6.35.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/3211/3591786.png
+  detection_source_url: https://github.com/CarlosRivera4726/route-provider-system/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: itsrusty
+  last_updated_on: 2023-12-24 03:50:21.000000000 Z
+- name: Socket.IO
+  description: Realtime application framework (Node.JS server)
+  website_url: http://socket.io/
+  version: 4.7.2
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/1161/vI0ZZlhZ_400x400.png
+  detection_source_url: https://github.com/CarlosRivera4726/route-provider-system/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: itsrusty
+  last_updated_on: 2023-12-24 03:50:21.000000000 Z
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/CarlosRivera4726/route-provider-system/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: itsrusty
+  last_updated_on: 2023-12-24 03:50:21.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/CarlosRivera4726/route-provider-system
+  detection_source: Repo Metadata
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  version: 3.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: https://github.com/CarlosRivera4726/route-provider-system/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: CarlosRivera4726
+  last_updated_on: 2024-01-06 01:21:46.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/CarlosRivera4726/route-provider-system/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: itsrusty
+  last_updated_on: 2023-12-24 03:50:21.000000000 Z
+- name: Winston
+  description: a multi-transport async logging library for node.js
+  website_url: https://github.com/winstonjs/winston
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/6668/9682013.png
+  detection_source_url: https://github.com/CarlosRivera4726/route-provider-system/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: itsrusty
+  last_updated_on: 2023-12-24 03:50:21.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/CarlosRivera4726/route-provider-system/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: itsrusty
+  last_updated_on: 2024-01-07 03:26:05.000000000 Z
+  vulnerabilities:
+  - name: Express.js Open Redirect in malformed URLs
+    cve_id: CVE-2024-29041
+    cve_url: https://github.com/advisories/GHSA-rv95-896h-c2vc
+    detected_date: Mar 26
+    severity: moderate
+    first_patched: 4.19.2
+- name: "@types/colors"
+  description: Stub TypeScript definitions entry for colors.js
+  package_url: https://www.npmjs.com/@types/colors
+  version: 1.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18776/default_6573a8e18b31ebd0ef37ee1be216ea3f0ff3b1b5.png
+  detection_source_url: https://github.com/CarlosRivera4726/route-provider-system/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: itsrusty
+  last_updated_on: 2024-01-07 22:41:08.000000000 Z
+- name: "@types/cors"
+  description: TypeScript definitions for cors
+  package_url: https://www.npmjs.com/@types/cors
+  version: 2.8.17
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17290/default_b2015e9577d171c4c3f12c3c8d253c01fe63ba8d.png
+  detection_source_url: https://github.com/CarlosRivera4726/route-provider-system/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: itsrusty
+  last_updated_on: 2024-01-07 22:41:08.000000000 Z
+- name: "@types/express"
+  description: TypeScript definitions for Express
+  package_url: https://www.npmjs.com/@types/express
+  version: 4.17.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16100/default_d947c1690e032a288145c7e2491999eab3ea8ede.png
+  detection_source_url: https://github.com/CarlosRivera4726/route-provider-system/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: itsrusty
+  last_updated_on: 2024-01-07 22:41:08.000000000 Z
+- name: "@types/express-session"
+  description: TypeScript definitions for express-session
+  package_url: https://www.npmjs.com/@types/express-session
+  version: 1.17.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18757/default_c692c805cf2082b8bc09a2771d585507f0f7bc36.png
+  detection_source_url: https://github.com/CarlosRivera4726/route-provider-system/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: itsrusty
+  last_updated_on: 2024-01-07 22:41:08.000000000 Z
+- name: "@types/morgan"
+  description: TypeScript definitions for morgan
+  package_url: https://www.npmjs.com/@types/morgan
+  version: 1.9.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18064/image.png
+  detection_source_url: https://github.com/CarlosRivera4726/route-provider-system/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: itsrusty
+  last_updated_on: 2024-01-07 22:41:08.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 20.10.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/CarlosRivera4726/route-provider-system/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: itsrusty
+  last_updated_on: 2024-01-07 22:41:08.000000000 Z
+- name: bcrypt
+  description: A bcrypt library for NodeJS
+  package_url: https://www.npmjs.com/bcrypt
+  version: 5.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16526/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
+  detection_source_url: https://github.com/CarlosRivera4726/route-provider-system/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: itsrusty
+  last_updated_on: 2023-12-24 07:12:55.000000000 Z
+- name: colors
+  description: Get colors in your node.js console
+  package_url: https://www.npmjs.com/colors
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15908/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/CarlosRivera4726/route-provider-system/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: itsrusty
+  last_updated_on: 2024-01-07 22:41:08.000000000 Z
+- name: cors
+  description: Node.js CORS middleware
+  package_url: https://www.npmjs.com/cors
+  version: 2.8.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16165/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/CarlosRivera4726/route-provider-system/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: itsrusty
+  last_updated_on: 2023-12-24 03:50:21.000000000 Z
+- name: express-session
+  description: Simple session middleware for Express
+  package_url: https://www.npmjs.com/express-session
+  version: 1.17.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16239/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
+  detection_source_url: https://github.com/CarlosRivera4726/route-provider-system/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: itsrusty
+  last_updated_on: 2024-01-07 03:26:05.000000000 Z
+- name: jsonwebtoken
+  description: JSON Web Token implementation
+  package_url: https://www.npmjs.com/jsonwebtoken
+  version: 9.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16155/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/CarlosRivera4726/route-provider-system/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: CarlosRivera4726
+  last_updated_on: 2024-01-06 00:43:48.000000000 Z
+- name: morgan
+  description: HTTP request logger middleware for node.js
+  package_url: https://www.npmjs.com/morgan
+  version: 1.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16097/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/CarlosRivera4726/route-provider-system/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: itsrusty
+  last_updated_on: 2023-12-24 03:50:21.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 3.0.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/CarlosRivera4726/route-provider-system/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: itsrusty
+  last_updated_on: 2023-12-24 03:50:21.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 10.9.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/CarlosRivera4726/route-provider-system/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: CarlosRivera4726
+  last_updated_on: 2024-01-06 01:21:46.000000000 Z
+- name: winston
+  description: A logger for just about everything
+  package_url: https://www.npmjs.com/winston
+  version: 3.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16003/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/CarlosRivera4726/route-provider-system/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: itsrusty
+  last_updated_on: 2023-12-24 03:50:21.000000000 Z
